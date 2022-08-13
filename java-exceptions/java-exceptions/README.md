@@ -14,3 +14,17 @@
     - O que é depuração (debug) e para que serve? ✅
     - Como utilizar o Eclipse e sua perspectiva de debug? ✅
     - Como alternar entre perspectivas do Eclipse. ✅
+- Tratamento de exceções ✅
+  - Introdução a exceções ✅
+  - Sobre exceções ✅
+  - Try Catch ✅
+  - Sobre os blocos try e catch ✅
+  - Variação do Catch ✅
+  - Fluxo ✅
+  - Multi catch ✅
+  - O que aprendemos? ✅
+    - O que são exceções, para que servem e porquê utilizá-las. ✅
+    - Como analisar o rastro de exceções, ou stacktrace. ✅
+    - Tratar exceções com os blocos `try-catch`. ✅
+    - Manipular uma exceção lançada no bloco catch. ✅
+    - Tratar múltiplas exceções com mais de um bloco catch ou usando Multi-Catch utilizando o pipe (`|`). ✅
