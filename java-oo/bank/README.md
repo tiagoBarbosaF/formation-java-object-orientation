@@ -1,0 +1,76 @@
+# Java OO
+
+### Steps:
+
+- Orientação a Objetos, introdução ✅
+  - Primeira classe — Contas ✅
+  - Instanciação, atributos e referências ✅
+  - Características dos objetos ✅
+  - Definindo tipos ✅
+  - Segunda Instância ✅
+  - Valores default de atributos ✅
+  - Definindo valor de atributos ✅
+  - Referências vs Objetos ✅
+  - Referências de objetos ✅
+  - O que aprendemos? ✅
+    - O que é uma classe ✅
+    - Como criar uma classe ✅
+    - Como criar um objeto ou instância de uma classe ✅
+    - O que são atributos ✅
+    - Como definir e visualizar valores de atributos ✅
+    - Como funciona a atribuição de uma referência a uma variável ✅
+- Definindo comportamentos ✅
+  - Nosso primeiro método ✅
+  - Sobre métodos ✅
+  - Como chamar um método? ✅
+  - Você conhece o this? ✅
+  - Métodos com retorno ✅
+  - Métodos validos ✅
+  - Onde usar o this? ✅
+  - Métodos com referência e mais retorno ✅
+  - Declaração do método ✅
+  - O que aprendemos? ✅
+    - como definir métodos com parâmetros e retorno ✅
+    - como retornar algo usando a palavra-chave `return` ✅
+    - como usar a referência `this` para acessar um atributo ✅
+    - que podemos passar uma referência como parâmetro do método ✅
+    - métodos são chamadas a partir da referência usando o operador `.` ✅
+- Composição de objetos ✅
+  - Composição de Objetos ✅
+  - Extraindo o que é comum ✅
+  - Referência Null ✅
+  - Problema não esperado ✅
+  - Solucionando o problema no código ✅
+  - O que aprendemos? ✅
+    - Realizar o relacionamento entre classes através de composição; ✅
+    - Vantagens de se isolar informações repetidas em outra classe; ✅
+    - Detalhes da composição; ✅
+    - NullPointerException para atributos não inicializados e seus cuidados. ✅
+- Encapsulamento e visibilidade ✅
+  - Atributos privados e encapsulamento ✅
+  - Público x Privado ✅
+  - Getters e Setters ✅
+  - Criando Getters e Setters ✅
+  - Getters e Setters de referência ✅
+  - Vantagens de atributos privados ✅
+  - Para saber mais: Cuidado com o Modelo Anêmico ✅
+  - O que aprendemos? ✅
+    - Atributos privados, restringindo o acesso aos atributos ✅
+    - Encapsulamento de código ✅
+    - Métodos de leitura dos atributos, os `getters` ✅
+    - Métodos de modificação dos atributos, os `setters` ✅
+    - Getters e Setters de referência ✅
+- Construtores e membros estáticos ✅
+  - Construtores ✅
+  - Utilizando construtores ✅
+  - Onde está o erro? ✅
+  - Static ✅
+  - Por que não soma? ✅
+  - Para saber mais: reaproveitamento entre construtores ✅
+  - E agora? ✅
+  - O que aprendemos? ✅
+    - Construtor da classe, possibilitando receber argumentos e inicializar atributos a partir da criação de um objeto ✅
+    - Com isso, a inicialização dos atributos recebidos no construtor torna-se obrigatória ✅
+    - Atributos da classe, os atributos estáticos ✅
+    - Métodos da classe, os métodos estáticos ✅
+    - Ausência de referência, do `this`, em métodos estáticos ✅
