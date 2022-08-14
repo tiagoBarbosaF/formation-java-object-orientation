@@ -75,3 +75,15 @@
     - como criar um bloco `catch` genérico usando a classe `Exception`; ✅
     - como criar uma exceção nova `SaldoInsuficienteException`; ✅
     - como transformar a exceção em checked ou _unchecked_? ✅
+- Finally, e try with resources ✅
+  - Finally ✅
+  - Palavras chaves ✅
+  - Try with resources ✅
+  - Bloco finally ✅
+  - Tratamento de exceções ✅
+  - try com recurso ✅
+  - O que aprendemos? ✅
+    - que existe um bloco `finally`, útil para o fechamento de recursos (como conexão); ✅
+    - quando há um bloco `finally` o bloco `catch` é opcional; ✅
+    - que o bloco `finally` é sempre executado, sem ou com exceção; ✅
+    - como usar o try-with-resources. ✅
