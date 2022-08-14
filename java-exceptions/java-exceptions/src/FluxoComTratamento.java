@@ -1,3 +1,5 @@
+import Contas.Conta;
+
 public class FluxoComTratamento {
     public static void main(String[] args) {
         System.out.println("Inicio do main");
@@ -24,7 +26,7 @@ public class FluxoComTratamento {
             System.out.println(i);
 //            int num = 3 / 0;
             Conta conta = null;
-            conta.deposita();
+//            conta.deposita();
         }
         System.out.println("Fim do metodo 02");
     }

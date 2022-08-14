@@ -62,3 +62,16 @@
     - As primeiras são denominadas checked sendo criadas através do pertencimento a uma hierarquia que não passe por 
     `RuntimeException`. ✅
     - As segundas são as unchecked, criadas como descendentes de RuntimeException. ✅
+- Aplicando exceções ✅
+  - Capturando qualquer exceção ✅
+  - Como compilar? ✅
+  - Qual catch? ✅
+  - Sacando com Unchecked Exception ✅
+  - Exceções são úteis? ✅
+  - Sacando com Checked Exception ✅
+  - Como resolver? ✅
+  - Mãos na massa: Catch genérico ✅
+  - O que aprendemos? ✅
+    - como criar um bloco `catch` genérico usando a classe `Exception`; ✅
+    - como criar uma exceção nova `SaldoInsuficienteException`; ✅
+    - como transformar a exceção em checked ou _unchecked_? ✅
