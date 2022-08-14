@@ -28,3 +28,12 @@
     - Tratar exceções com os blocos `try-catch`. ✅
     - Manipular uma exceção lançada no bloco catch. ✅
     - Tratar múltiplas exceções com mais de um bloco catch ou usando Multi-Catch utilizando o pipe (`|`). ✅
+- Lançando exceções ✅
+  - Revisão ✅
+  - Resumindo o conteúdo ✅
+  - Lançando exceções ✅
+  - Porque a exceção não foi lançada? ✅
+  - Sobre o lançamento de exceções ✅
+  - O que aprendemos? ✅
+    - Como lançar exceções? ✅
+    - Como atribuir uma mensagem à exceção? ✅
