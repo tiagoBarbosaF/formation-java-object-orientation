@@ -20,7 +20,7 @@
   - Try Catch ✅
   - Sobre os blocos try e catch ✅
   - Variação do Catch ✅
-  - Fluxo ✅
+  - br.com.tiagobarbosa.domain.Fluxo ✅
   - Multi catch ✅
   - O que aprendemos? ✅
     - O que são exceções, para que servem e porquê utilizá-las. ✅
