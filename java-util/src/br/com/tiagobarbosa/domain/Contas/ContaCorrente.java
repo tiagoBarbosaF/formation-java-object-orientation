@@ -15,4 +15,9 @@ public class ContaCorrente extends Conta {
     public double getPercentualTributacao() {
         return percentualTributacao;
     }
+
+    @Override
+    public String toString() {
+        return "ContaCorrente: " + super.toString();
+    }
 }

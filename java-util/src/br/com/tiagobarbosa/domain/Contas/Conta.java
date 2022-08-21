@@ -1,5 +1,7 @@
 package br.com.tiagobarbosa.domain.Contas;
 
+import java.util.Objects;
+
 public abstract class Conta {
     private final int agencia;
     private final int numero;
@@ -33,6 +35,27 @@ public abstract class Conta {
         return false;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Conta conta = (Conta) o;
+        return agencia == conta.agencia && numero == conta.numero;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(agencia, numero);
+    }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "agencia=" + agencia +
+                ", numero=" + numero +
+                '}';
+    }
+
     public int getAgencia() {
         return agencia;
     }
@@ -49,11 +72,4 @@ public abstract class Conta {
         return totalContas;
     }
 
-    @Override
-    public String toString() {
-        return "Conta{" +
-                "agencia=" + agencia +
-                ", numero=" + numero +
-                '}';
-    }
 }

@@ -57,15 +57,20 @@
     - que os generics parametrizam classes ✅
     - que no caso da `ArrayList` podemos definir o tipo dos elementos através de generics ✅
 
-- Equals e mais listas
-  - O método equals
-  - Assinatura do método
-  - Sobre equals
-  - List e LinkedList
-  - Sobre listas
-  - LinkedList vs ArrayList
-  - De Array para List
-  - O que aprendemos?
+- Equals e mais listas ✅
+  - O método equals ✅
+  - Assinatura do método ✅
+  - Sobre equals ✅
+  - List e LinkedList ✅
+  - Sobre listas ✅
+  - LinkedList vs ArrayList ✅
+  - De Array para List ✅
+  - O que aprendemos? ✅
+    - como implementar o método `equals` para definir a igualdade ✅
+    - que o método `equals` é utilizado pelas listas ✅
+    - que existe mais uma lista, a `java.util.LinkedList` ✅
+    - a diferença entre `ArrayList` e `LinkedList` ✅
+    - a interface `java.util.List` que define os métodos da lista ✅
 
 - Vector e a interface Collection
   - A alternativa threadsafe

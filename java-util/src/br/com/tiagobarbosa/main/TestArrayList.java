@@ -12,7 +12,7 @@ public class TestArrayList {
 
         list.add(new ContaCorrente(22, 211));
         list.add(new ContaPoupanca(22, 222));
-        list.add(new ContaCorrente(33, 311));
+        ContaPoupanca cc3 = new ContaPoupanca(22, 222);
 
         System.out.println("Size -> " + list.size());
         for (Object o : list) {
@@ -23,10 +23,12 @@ public class TestArrayList {
         System.out.println("Remove one count");
         list.remove(0);
         System.out.println("Size -> " + list.size());
-        for (Object o :
+        for (Conta conta :
                 list) {
-            System.out.println(o);
+            System.out.println(conta);
         }
+        System.out.println("---------------------");
+        System.out.println("Contas já existe? " + list.contains(cc3));
 
     }
 }

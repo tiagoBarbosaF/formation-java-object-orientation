@@ -35,6 +35,5 @@ public class TestReferences {
             System.out.println("Número: " + ((Conta) reference).getNumero() + " Agência: " +
                     ((Conta) reference).getAgencia());
         }
-        //        System.out.println("Conta Corrente -> "+ (ContaCorrente));
     }
 }
