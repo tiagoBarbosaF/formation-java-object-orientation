@@ -37,19 +37,25 @@
     - quando o type cast falha podemos receber uma `ClassCastException` ✅
     - para receber valores ao chamar o programa Java na linha de comando podemos usar o array `String[]` no método main ✅
 
-- ArrayList e Generics
-  - Adapter para arrays
-  - Desvantagens do array
-  - Mão na massa: GuardadorDeContas
-  - Conhecendo ArrayList
-  - Sobre a ArrayList
-  - Adicionar referência
-  - Sobre a ArrayList #2
-  - Introdução ao Generics
-  - Código legado
-  - Benefícios dos Generics
-  - Outras formas de inicialização
-  - O que aprendemos?
+- ArrayList e Generics ✅
+  - Adapter para arrays ✅
+  - Desvantagens do array ✅
+  - Mão na massa: GuardadorDeContas ✅
+  - Conhecendo ArrayList ✅
+  - Sobre a ArrayList ✅
+  - Adicionar referência ✅
+  - Sobre a ArrayList #2 ✅
+  - Introdução ao Generics ✅
+  - Código legado ✅
+  - Benefícios dos Generics ✅
+  - Outras formas de inicialização ✅
+  - O que aprendemos? ✅
+    - que a classe `java.util.ArrayList` encapsula o uso do array e oferece vários métodos de mais alto nível ✅
+    - que uma lista guarda referencias ✅
+    - como usar métodos `size`, `get`, `remove` ✅
+    - como usar o `foreach` para iterar a `ArrayList` ✅
+    - que os generics parametrizam classes ✅
+    - que no caso da `ArrayList` podemos definir o tipo dos elementos através de generics ✅
 
 - Equals e mais listas
   - O método equals

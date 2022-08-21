@@ -48,4 +48,12 @@ public abstract class Conta {
     public static int getTotalContas() {
         return totalContas;
     }
+
+    @Override
+    public String toString() {
+        return "Conta{" +
+                "agencia=" + agencia +
+                ", numero=" + numero +
+                '}';
+    }
 }
