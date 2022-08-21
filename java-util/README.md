@@ -21,16 +21,21 @@
     - Arrays possuem um atributo `length` para saber o tamanho ✅
     - A forma literal de criar uma Array, com o uso de chaves {}. ✅
 
-- Guardando qualquer referência
-  - Array do tipo Object
-  - Array de clientes
-  - Cast explicito e implícito
-  - Cast possível e impossível
-  - Qual declaração?
-  - Quais casts
-  - Sobre ClassCastException
-  - Entendendo o array String args
-  - O que aprendemos?
+- Guardando qualquer referência ✅
+  - Array do tipo Object ✅
+  - Array de clientes ✅
+  - Cast explicito e implícito ✅
+  - Cast possível e impossível ✅
+  - Qual declaração? ✅
+  - Quais casts ✅
+  - Sobre ClassCastException ✅
+  - Entendendo o array String args ✅
+  - O que aprendemos? ✅
+    - uma array do tipo `Object` pode guardar qualquer tipo de referência ✅
+    - quando convertemos uma referência genérica para uma referência mais específica é preciso usar um type cast ✅
+    - o cast só compila quando é possível, mesmo assim pode falhar na hora de rodar ✅
+    - quando o type cast falha podemos receber uma `ClassCastException` ✅
+    - para receber valores ao chamar o programa Java na linha de comando podemos usar o array `String[]` no método main ✅
 
 - ArrayList e Generics
   - Adapter para arrays
