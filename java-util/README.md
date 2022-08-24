@@ -72,15 +72,19 @@
     - a diferença entre `ArrayList` e `LinkedList` ✅
     - a interface `java.util.List` que define os métodos da lista ✅
 
-- Vector e a interface Collection
-  - A alternativa threadsafe
-  - Vector, o meu Vector!
-  - Cursos sobre Threads
-  - A interface Collection
-  - Domina listas?
-  - Sobre coleções
-  - Curso dedicado às coleções
-  - O que aprendemos?
+- Vector e a interface Collection ✅
+  - A alternativa threadsafe ✅
+  - Vector, o meu Vector! ✅
+  - Cursos sobre Threads ✅
+  - A interface Collection ✅
+  - Domina listas? ✅
+  - Sobre coleções ✅
+  - Curso dedicado às coleções ✅
+  - O que aprendemos? ✅
+    - o `java.util.Vector`, que é uma _ArrayList_ thread safe ✅
+    - a interface `java.util.Collection` que é a interface de todas as coleções ✅
+    - as listas são sequencias que aceitam elementos duplicados ✅
+    - os conjuntos (`java.util.Set`) também são coleções, mas não aceitam duplicados nem são listas ✅
 
 - As classes Wrappers
   - Autoboxing e Unboxing
