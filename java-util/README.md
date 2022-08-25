@@ -32,7 +32,7 @@
   - Entendendo o array String args ✅
   - O que aprendemos? ✅
     - uma array do tipo `Object` pode guardar qualquer tipo de referência ✅
-    - quando convertemos uma referência genérica para uma referência mais específica é preciso usar um type cast ✅
+    - quando convertemos uma referência genérica para uma referência mais específica é preciso usar um type cast. ✅
     - o cast só compila quando é possível, mesmo assim pode falhar na hora de rodar ✅
     - quando o type cast falha podemos receber uma `ClassCastException` ✅
     - para receber valores ao chamar o programa Java na linha de comando podemos usar o array `String[]` no método main ✅
@@ -86,16 +86,23 @@
     - as listas são sequencias que aceitam elementos duplicados ✅
     - os conjuntos (`java.util.Set`) também são coleções, mas não aceitam duplicados nem são listas ✅
 
-- As classes Wrappers
-  - Autoboxing e Unboxing
-  - Métodos da classe Integer
-  - O Wrapper Integer
-  - Código confuso
-  - Parsing
-  - A classe Number
-  - Qual primitivo?
-  - Conhece os wrappers?
-  - O que aprendemos?
+- As classes Wrappers ✅
+  - Autoboxing e Unboxing ✅
+  - Métodos da classe Integer ✅
+  - O Wrapper Integer ✅
+  - Código confuso ✅
+  - Parsing ✅
+  - A classe Number ✅
+  - Qual primitivo? ✅
+  - Conhece os wrappers? ✅
+  - O que aprendemos? ✅
+    - para cada primitivo existe uma classe chamada Wrapper ✅
+    - para guardar um primitivo numa coleção é preciso criar um objeto que embrulha o valor ✅
+    - a criação do objeto Wrapper é chamada autoboxing ✅
+    - a retirada do valor primitivo do objeto Wrapper é chamada unboxing ✅
+    - autoboxing e unboxing acontecem automaticamente. ✅
+    - as classes wrapper possuem vários métodos auxiliares, por exemplo, para o parsing ✅
+    - todas as classes wrappers que representam um valor numérico possuem a classe `java.lang.Number` como mãe ✅
 
 - Ordenação de listas
   - Ordenando listas
