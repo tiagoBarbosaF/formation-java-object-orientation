@@ -1,10 +1,13 @@
 package br.com.tiagobarbosa.domain.Contas;
 
+import br.com.tiagobarbosa.domain.Pessoas.Cliente;
+
 import java.util.Objects;
 
-public abstract class Conta {
+public abstract class Conta implements Comparable<Conta> {
     private final int agencia;
     private final int numero;
+    private Cliente titular;
     private double saldo;
 
     private static int totalContas;
@@ -28,7 +31,7 @@ public abstract class Conta {
     }
 
     public boolean transfere(double valor, Conta destino) {
-         if (saca(valor)) {
+        if (saca(valor)) {
             destino.deposita(valor);
             return true;
         }
@@ -68,8 +71,20 @@ public abstract class Conta {
         return saldo;
     }
 
+    public Cliente getTitular() {
+        return titular;
+    }
+
+    public void setTitular(Cliente titular) {
+        this.titular = titular;
+    }
+
     public static int getTotalContas() {
         return totalContas;
     }
 
+    @Override
+    public int compareTo(Conta other) {
+        return Double.compare(this.saldo, other.saldo);
+    }
 }
