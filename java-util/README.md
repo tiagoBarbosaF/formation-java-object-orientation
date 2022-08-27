@@ -124,11 +124,11 @@
     - a classe `Collections` é uma fachada com vários métodos auxiliares para trabalhar com as coleções, principalmente 
     listas ✅
 
-- Classes anônimas e Lambdas
-  - Classes anônimas
-  - Qual objeto?
-  - O que acontece?
-  - Finalmente Lambdas
-  - E se fosse com lambda?
-  - Foreach com lambda
-  - O padrão Iterator
+- Classes anônimas e Lambdas ✅
+  - Classes anônimas ✅
+  - Qual objeto? ✅
+  - O que acontece? ✅
+  - Finalmente Lambdas ✅
+  - E se fosse com lambda? ✅
+  - Foreach com lambda ✅
+  - O padrão Iterator ✅
