@@ -1,2 +1,4 @@
-Testing write file using console
-another line
+Testing write a new file using PrintWriter.
+
+
+Other line for testing...

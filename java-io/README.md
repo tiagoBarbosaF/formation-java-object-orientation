@@ -27,13 +27,21 @@
     - Ler e escrever dados abstraindo implementação;
     - Classes abstratas e concretas para escrita e leitura.
 
-- FileWriter e PrintStream
-  - Saída com FileWriter
-  - Sobre o FileWriter
-  - PrintWriter e PrintStream
-  - Saída para arquivo de texto
-  - Escrita independente do sistema
-  - O que aprendemos?
+- FileWriter e PrintStream ✅
+  - Saída com FileWriter ✅
+  - Sobre o FileWriter ✅
+  - PrintWriter e PrintStream ✅
+  - Saída para arquivo de texto ✅
+  - Escrita independente do sistema ✅
+  - O que aprendemos? ✅
+    - Várias alternativas para estabelecer uma saída para um arquivo de texto, como: ✅
+      - A classe `FileWriter` 
+      - A classe `PrintStream` 
+      - A classe `PrintWriter`
+    - Alguns detalhes da classe `System`, como: ✅
+      - O atributo `System.out` é do tipo `PrintStream` 
+      - O método `System.lineSeparator()` devolve os caracteres que representam uma nova linha 
+      - O método `System.currentTimeMillis()` devolve os milissegundos que passaram desde 1 de janeiro de 1970
 
 - Usando java.util.Scanner
   - Leitura com Scanner
