@@ -8,3 +8,4 @@
   - exceptions ✅
   - java.lang ✅
   - java.util ✅
+  - java.io
