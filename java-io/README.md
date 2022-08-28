@@ -14,14 +14,18 @@
     - Utilização de _exceptions_ pelo Java IO caso a operação de leitura não saia como esperado;
     - Classes abstratas e concretas para leitura.
 
-- Escrita com java.io
-  - OutputStream e Writer
-  - Escrita de forma binária
-  - Outras entradas e saídas
-  - Flexibilidade no I/O
-  - Escrevendo no console
-  - Resumo
-  - O que aprendemos?
+- Escrita com java.io ✅
+  - OutputStream e Writer ✅
+  - Escrita de forma binária ✅
+  - Outras entradas e saídas ✅
+  - Flexibilidade no I/O ✅
+  - Escrevendo no console ✅
+  - Resumo ✅
+  - O que aprendemos? ✅
+    - escrever em arquivos;
+    - escrever usando outputs diferentes;
+    - Ler e escrever dados abstraindo implementação;
+    - Classes abstratas e concretas para escrita e leitura.
 
 - FileWriter e PrintStream
   - Saída com FileWriter

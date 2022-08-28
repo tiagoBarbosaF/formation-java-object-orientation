@@ -13,5 +13,7 @@ public class TestReading {
             System.out.println(line);
             line = bufferedReader.readLine();
         }
+
+        bufferedReader.close();
     }
 }

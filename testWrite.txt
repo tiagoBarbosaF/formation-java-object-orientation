@@ -1,0 +1,2 @@
+Testing write file using console
+another line
