@@ -43,14 +43,18 @@
       - O método `System.lineSeparator()` devolve os caracteres que representam uma nova linha 
       - O método `System.currentTimeMillis()` devolve os milissegundos que passaram desde 1 de janeiro de 1970
 
-- Usando java.util.Scanner
-  - Leitura com Scanner
-  - Lendo arquivos com Scanner
-  - Parseando arquivo
-  - Separando o conteúdo
-  - Formatação de valores
-  - Formatação expressiva
-  - O que aprendemos?
+- Usando java.util.Scanner ✅
+  - Leitura com Scanner ✅
+  - Lendo arquivos com Scanner ✅
+  - Parseando arquivo ✅
+  - Separando o conteúdo ✅
+  - Formatação de valores ✅
+  - Formatação expressiva ✅
+  - O que aprendemos? ✅
+    - Leitura de arquivos com Scanner
+    - Uso de delimitador com Scanner
+    - Formatação de texto e também de números
+    - Definição de Localização para formatar o texto.
 
 - Encoding e Charsets
   - Character Sets
