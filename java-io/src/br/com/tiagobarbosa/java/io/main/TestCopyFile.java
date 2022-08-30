@@ -1,12 +1,13 @@
 package br.com.tiagobarbosa.java.io.main;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 public class TestCopyFile {
     public static void main(String[] args) throws IOException {
 //        InputStream fileInputStream = new FileInputStream("lorem.txt");
         InputStream fileInputStream = System.in;
-        Reader inputStreamReader = new InputStreamReader(fileInputStream);
+        Reader inputStreamReader = new InputStreamReader(fileInputStream, StandardCharsets.UTF_8);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 
         OutputStream fileOutputStream = new FileOutputStream("testWrite.txt");
