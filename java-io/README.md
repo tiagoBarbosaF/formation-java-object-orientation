@@ -70,12 +70,22 @@
     - As classes `Scanner` e `InputStreamReader` possuem sobrecargas de construtores que recebem como argumento qual charset será utilizado para fazer a transformação dos bytes em strings. De modo análogo para escrita, a classe `PrintWriter` também permite informar qual charset será utilizado para transformar a string nos bytes específicos.
 
 
-- Serialização de objetos
-  - Serialização Java
-  - Fluxo binário
-  - Serializando qualquer objeto
-  - Sobre serialVersionUID
-  - Serializando com herança
-  - Serializando composições
-  - Sobre a Serialização
-  - O que aprendemos?
+- Serialização de objetos ✅
+  - Serialização Java ✅ 
+  - Fluxo binário ✅ 
+  - Serializando qualquer objeto ✅ 
+  - Sobre serialVersionUID ✅ 
+  - Serializando com herança ✅ 
+  - Serializando composições ✅ 
+  - Sobre a Serialização ✅ 
+  - O que aprendemos? ✅ 
+    - A criação do fluxo binário a partir de um objeto é chamado serialização;
+    - A criação de um objeto a partir de um fluxo binário é chamado **desserialização**;
+    - A classe deve implementar a interface `java.io.Serializable`;
+    - A serialização/desserialização funciona em cascata e também com herança;
+    - Existe a palavra-chave `transient` para indicar que o atributo não deve ser serializado;
+    - É boa prática colocar o atributo estático `serialVersionUID` para versionar a classe;
+    - A versão sempre fica guardada no fluxo binário;
+    - Se não colocarmos explicitamente o `serialVersionUID`, a versão será gerada dinamicamente;
+    - É raro usar a serialização na "unha", mas é um conhecimento importante, pois será utilizado por outras 
+      bibliotecas.
