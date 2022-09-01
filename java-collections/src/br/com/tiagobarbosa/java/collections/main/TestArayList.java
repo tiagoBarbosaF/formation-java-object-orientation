@@ -3,7 +3,7 @@ package br.com.tiagobarbosa.java.collections.main;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Main {
+public class TestArayList {
     public static void main(String[] args) {
         String class01 = "Trabalhando com ArrayList";
         String class02 = "Lista de objetos";

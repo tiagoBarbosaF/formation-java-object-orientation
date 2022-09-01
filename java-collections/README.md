@@ -3,7 +3,6 @@
 ### Steps:
 
 - Trabalhando com ArrayList ✅
-  - Trabalhando com ArrayList ✅
   - Preparando Ambiente em todos SOs ✅
   - Adicionando elementos em um ArrayList ✅
   - Removendo elementos de uma lista ✅
@@ -11,15 +10,13 @@
   - Tentando acessar índices que não existem na lista ✅
   - Ordenando uma lista ✅
 
-- Listas de objetos
-  - Listas de objetos
-  - Criando listas a partir de objetos próprios
-  - Reescrevendo o toString da classe Aula
-  - Definindo um critério de comparação na classe Aula
-  - Ordenando com Java 8
+- Listas de objetos ✅
+  - Criando listas a partir de objetos próprios ✅
+  - Reescrevendo o toString da classe Aula ✅
+  - Definindo um critério de comparação na classe Aula ✅
+  - Ordenando com Java 8 ✅
 
 - Relacionamentos com coleções
-  - Relacionamentos com coleções
   - Criando relacionamentos com coleções
   - Declarando as diferentes implementações como List
   - Adicionando novas aulas em um Curso
@@ -27,7 +24,6 @@
   - Diferença entre ArrayList e LinkedList
 
 - Mais práticas com relacionamentos
-  - Mais práticas com relacionamentos
   - Imprimindo uma unmodifiable list ordenadamente
   - Ordenando as aulas de um curso
   - Obtendo o tempo total de aulas
@@ -35,7 +31,6 @@
   - Outros métodos de Collections.
 
 - O poder dos sets
-  - O poder dos sets
   - Características de conjuntos
   - Interface mãe
   - Imprimindo conjunto
@@ -43,7 +38,6 @@
   - Velocidade de busca das listas e conjuntos
 
 - Aplicando o Set no modelo
-  - Aplicando o Set no modelo
   - Criação da classe aluno
   - Encapsulando o Set
   - Collections.unmodifiableSet(..)
@@ -51,14 +45,12 @@
   - Para saber mais: Coleções threadsafe
 
 - Equals e hashcode
-  - Equals e hashcode
   - Considerando hashCode e Equals
   - Verificando se está matriculado
   - Programando defensivamente
   - Para saber mais: O contrato do método equals
 
 - Outros sets e iterators
-  - Outros sets e iterators
   - HashSet é poderoso, mas se eu precisar de acesso ordenado?
   - TreeSet
   - Recordar e viver
@@ -67,7 +59,6 @@
   - TreeSet e Comparator
 
 - Qual Collection usar
-  - Qual Collection usar
   - List vs Set
   - A implementações de Collection
   - Qual usar?
