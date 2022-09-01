@@ -9,3 +9,4 @@
   - java.lang ✅
   - java.util ✅
   - java.io ✅
+  - java collections
