@@ -16,12 +16,12 @@
   - Definindo um critério de comparação na classe Aula ✅
   - Ordenando com Java 8 ✅
 
-- Relacionamentos com coleções
-  - Criando relacionamentos com coleções
-  - Declarando as diferentes implementações como List
-  - Adicionando novas aulas em um Curso
-  - Encapsulando o acesso às aulas
-  - Diferença entre ArrayList e LinkedList
+- Relacionamentos com coleções ✅
+  - Criando relacionamentos com coleções ✅
+  - Declarando as diferentes implementações como List ✅
+  - Adicionando novas aulas em um Curso ✅
+  - Encapsulando o acesso às aulas ✅
+  - Diferença entre ArrayList e LinkedList ✅
 
 - Mais práticas com relacionamentos
   - Imprimindo uma unmodifiable list ordenadamente
