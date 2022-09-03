@@ -37,12 +37,12 @@
   - Elementos duplicados ✅
   - Velocidade de busca das listas e conjuntos ✅
 
-- Aplicando o Set no modelo
-  - Criação da classe aluno
-  - Encapsulando o Set
-  - Collections.unmodifiableSet(..)
-  - Collections.emptySet()
-  - Para saber mais: Coleções threadsafe
+- Aplicando o Set no modelo ✅
+  - Criação da classe aluno ✅
+  - Encapsulando o Set ✅
+  - Collections.unmodifiableSet(..) ✅
+  - Collections.emptySet() ✅
+  - Para saber mais: Coleções threadsafe ✅
 
 - Equals e hashcode
   - Considerando hashCode e Equals

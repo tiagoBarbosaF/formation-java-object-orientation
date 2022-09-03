@@ -1,13 +1,12 @@
 package br.com.tiagobarbosa.java.collections.domain;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class Curso {
     private String nome;
     private String instrutor;
     private List<Aula> aulas = new LinkedList<>();
+    private Set<Aluno> alunos = new HashSet<>();
     private static int tempoTotal;
 
     public Curso(String nome, String instrutor) {
@@ -20,15 +19,6 @@ public class Curso {
         tempoTotal += aula.getTempo();
     }
 
-//    public int getTempoTotal() {
-//        int tempoTotal = 0;
-//        for (Aula aula :
-//                aulas) {
-//            tempoTotal += aula.getTempo();
-//        }
-//        return tempoTotal;
-//    }
-
     @Override
     public String toString() {
         return "Curso{" +
@@ -36,6 +26,10 @@ public class Curso {
                 ", instrutor='" + instrutor + '\'' +
                 ", aulas=" + aulas +
                 ", tempo total='" + getTempoTotal() + "'}";
+    }
+
+    public void matricula(Aluno aluno) {
+        this.alunos.add(aluno);
     }
 
     public String getNome() {
@@ -52,5 +46,9 @@ public class Curso {
 
     public static int getTempoTotal() {
         return tempoTotal;
+    }
+
+    public Set<Aluno> getAlunos() {
+        return Collections.unmodifiableSet(alunos);
     }
 }
