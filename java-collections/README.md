@@ -30,12 +30,12 @@
   - Melhorando a exibição do curso ✅
   - Outros métodos de Collections. ✅
 
-- O poder dos sets
-  - Características de conjuntos
-  - Interface mãe
-  - Imprimindo conjunto
-  - Elementos duplicados
-  - Velocidade de busca das listas e conjuntos
+- O poder dos sets ✅
+  - Características de conjuntos ✅
+  - Interface mãe ✅
+  - Imprimindo conjunto ✅
+  - Elementos duplicados ✅
+  - Velocidade de busca das listas e conjuntos ✅
 
 - Aplicando o Set no modelo
   - Criação da classe aluno
