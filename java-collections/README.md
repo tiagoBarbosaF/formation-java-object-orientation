@@ -23,12 +23,12 @@
   - Encapsulando o acesso às aulas ✅
   - Diferença entre ArrayList e LinkedList ✅
 
-- Mais práticas com relacionamentos
-  - Imprimindo uma unmodifiable list ordenadamente
-  - Ordenando as aulas de um curso
-  - Obtendo o tempo total de aulas
-  - Melhorando a exibição do curso
-  - Outros métodos de Collections.
+- Mais práticas com relacionamentos ✅
+  - Imprimindo uma unmodifiable list ordenadamente ✅
+  - Ordenando as aulas de um curso ✅
+  - Obtendo o tempo total de aulas ✅
+  - Melhorando a exibição do curso ✅
+  - Outros métodos de Collections. ✅
 
 - O poder dos sets
   - Características de conjuntos
