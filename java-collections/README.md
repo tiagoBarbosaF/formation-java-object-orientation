@@ -50,13 +50,13 @@
   - Programando defensivamente ✅
   - Para saber mais: O contrato do método equals ✅
 
-- Outros sets e iterators
-  - HashSet é poderoso, mas se eu precisar de acesso ordenado?
-  - TreeSet
-  - Recordar e viver
-  - Acesso sincronizado
-  - Refazendo à moda antiga
-  - TreeSet e Comparator
+- Outros sets e iterators ✅
+  - HashSet é poderoso, mas se eu precisar de acesso ordenado? ✅
+  - TreeSet ✅
+  - Recordar e viver ✅
+  - Acesso sincronizado ✅
+  - Refazendo à moda antiga ✅
+  - TreeSet e Comparator ✅
 
 - Qual Collection usar
   - List vs Set
