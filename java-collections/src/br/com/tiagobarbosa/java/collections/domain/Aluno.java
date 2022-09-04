@@ -7,7 +7,7 @@ public class Aluno implements Comparable<Aluno> {
     private int matricula;
 
     public Aluno(String nome, int matricula) {
-        if (this.nome == null){
+        if (nome == null){
             throw new NullPointerException("Nome não pode ser vazio.");
         }
         this.nome = nome;

@@ -58,18 +58,18 @@
   - Refazendo à moda antiga ✅
   - TreeSet e Comparator ✅
 
-- Qual Collection usar
-  - List vs Set
-  - A implementações de Collection
-  - Qual usar?
-  - Qual coleção?
+- Qual Collection usar ✅
+  - List vs Set ✅
+  - A implementações de Collection ✅
+  - Qual usar? ✅
+  - Qual coleção? ✅
 
-- Mapas
-  - Características dos mapas
-  - Adicionando elementos em um mapa
-  - Iterando sobre um mapa
-  - Garantindo a ordem de inserção de um mapa
-  - Criando o mapa de alunos
-  - Para saber mais: Chaves e Valores
-  - Como continuar?
-  - Projeto pronto
+- Mapas ✅
+  - Características dos mapas ✅
+  - Adicionando elementos em um mapa ✅
+  - Iterando sobre um mapa ✅
+  - Garantindo a ordem de inserção de um mapa ✅
+  - Criando o mapa de alunos ✅
+  - Para saber mais: Chaves e Valores ✅
+  - Como continuar? ✅
+  - Projeto pronto ✅
