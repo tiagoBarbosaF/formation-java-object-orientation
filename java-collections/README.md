@@ -44,11 +44,11 @@
   - Collections.emptySet() ✅
   - Para saber mais: Coleções threadsafe ✅
 
-- Equals e hashcode
-  - Considerando hashCode e Equals
-  - Verificando se está matriculado
-  - Programando defensivamente
-  - Para saber mais: O contrato do método equals
+- Equals e hashcode ✅
+  - Considerando hashCode e Equals ✅
+  - Verificando se está matriculado ✅
+  - Programando defensivamente ✅
+  - Para saber mais: O contrato do método equals ✅
 
 - Outros sets e iterators
   - HashSet é poderoso, mas se eu precisar de acesso ordenado?
