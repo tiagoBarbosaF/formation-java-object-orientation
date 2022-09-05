@@ -31,13 +31,13 @@
   - Tirando mais proveito do method reference ✅
   - Mais sobre a API de Stream ✅
 
-- Mais Streams, Collectors e APIs
-  - Retornar qualquer elemento de um Stream
-  - Versão de Stream para um double
-  - Retornando o primeiro elemento do Stream
-  - Trabalhando com Optional
-  - Calculando média de quantidade de alunos
-  - Coletando o resultado do stream em uma List
+- Mais Streams, Collectors e APIs ✅
+  - Retornar qualquer elemento de um Stream ✅
+  - Versão de Stream para um double ✅
+  - Retornando o primeiro elemento do Stream ✅
+  - Trabalhando com Optional ✅
+  - Calculando média de quantidade de alunos ✅
+  - Coletando o resultado do stream em uma List ✅
 
 - A nova API de datas
   - Data e hora com time-zone
