@@ -1,8 +1,10 @@
 package br.com.tiagobarbosa.java.eight.main;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
+
+import static java.util.Comparator.comparingInt;
+import static java.util.Comparator.naturalOrder;
 
 public class TestOrdenaStrings {
     public static void main(String[] args) {
@@ -14,15 +16,19 @@ public class TestOrdenaStrings {
 
         System.out.println(textos);
 //        textos.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
-        textos.sort(Comparator.comparingInt(String::length)); // Comparando por tamanho da string
+        textos.sort(comparingInt(String::length)); // Comparando por tamanho da string
         System.out.println(textos);
-        textos.sort(Comparator.naturalOrder()); // Comparando de modo alfabético
+        textos.sort(naturalOrder()); // Comparando de modo alfabético
         System.out.println(textos);
         System.out.println();
 
         textos.forEach(texto -> System.out.printf("Texto: %s%n", texto));
         System.out.println();
         textos.forEach(System.out::println);
+        System.out.println();
+
+        textos.sort(String.CASE_INSENSITIVE_ORDER);
+        System.out.println(textos);
         System.out.println();
 
         new Thread(() -> System.out.println("Executando um Runnable")).start();

@@ -16,13 +16,13 @@
   - Entendendo o tipo de um lambda ✅
   - Threads com lambda! ✅
 
-- Código mais sucinto com Method references
-  - De lambda para method reference
-  - Conhecendo o Comparator.comparing()
-  - Escrevendo o comparing com method reference
-  - Usando importe estático
-  - Mudando o critério de comparação
-  - Tirando proveito de method reference no forEach
+- Código mais sucinto com Method references ✅
+  - De lambda para method reference ✅
+  - Conhecendo o Comparator.comparing() ✅
+  - Escrevendo o comparing com method reference ✅
+  - Usando importe estático ✅
+  - Mudando o critério de comparação ✅
+  - Tirando proveito de method reference no forEach ✅
 
 - Streams: trabalhando melhor com coleções
   - Filtro de cursos com Stream
