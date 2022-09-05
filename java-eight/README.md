@@ -9,12 +9,12 @@
   - Quais são os novos métodos default em List? ✅
   - Vantagens dos default methods ✅
 
-- Que venham os lambdas!
-  - Métodos de uma interface funcional
-  - Escrevendo o forEach com lambda
-  - Método sort com lambda
-  - Entendendo o tipo de um lambda
-  - Threads com lambda!
+- Que venham os lambdas! ✅
+  - Métodos de uma interface funcional ✅
+  - Escrevendo o forEach com lambda ✅
+  - Método sort com lambda ✅
+  - Entendendo o tipo de um lambda ✅
+  - Threads com lambda! ✅
 
 - Código mais sucinto com Method references
   - De lambda para method reference

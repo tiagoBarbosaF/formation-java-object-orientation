@@ -13,6 +13,7 @@ public class TestOrdenaStrings {
 
 
         System.out.println(textos);
+//        textos.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
         textos.sort(Comparator.comparingInt(String::length)); // Comparando por tamanho da string
         System.out.println(textos);
         textos.sort(Comparator.naturalOrder()); // Comparando de modo alfabético
@@ -22,5 +23,8 @@ public class TestOrdenaStrings {
         textos.forEach(texto -> System.out.printf("Texto: %s%n", texto));
         System.out.println();
         textos.forEach(System.out::println);
+        System.out.println();
+
+        new Thread(() -> System.out.println("Executando um Runnable")).start();
     }
 }
