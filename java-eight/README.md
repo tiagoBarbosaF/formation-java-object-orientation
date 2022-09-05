@@ -24,12 +24,12 @@
   - Mudando o critério de comparação ✅
   - Tirando proveito de method reference no forEach ✅
 
-- Streams: trabalhando melhor com coleções
-  - Filtro de cursos com Stream
-  - Filtrando cursos com mais de 50 alunos
-  - Utilizando o método map
-  - Tirando mais proveito do method reference
-  - Mais sobre a API de Stream
+- Streams: trabalhando melhor com coleções ✅
+  - Filtro de cursos com Stream ✅
+  - Filtrando cursos com mais de 50 alunos ✅
+  - Utilizando o método map ✅
+  - Tirando mais proveito do method reference ✅
+  - Mais sobre a API de Stream ✅
 
 - Mais Streams, Collectors e APIs
   - Retornar qualquer elemento de um Stream
