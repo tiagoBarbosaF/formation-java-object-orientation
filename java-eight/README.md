@@ -39,9 +39,9 @@
   - Calculando média de quantidade de alunos ✅
   - Coletando o resultado do stream em uma List ✅
 
-- A nova API de datas
-  - Data e hora com time-zone
-  - Data atual com LocalDate
-  - Criando uma data com LocalDate
-  - Criando um período entre duas datas
-  - Formatando suas datas
+- A nova API de datas ✅
+  - Data e hora com time-zone ✅
+  - Data atual com LocalDate ✅
+  - Criando uma data com LocalDate ✅
+  - Criando um período entre duas datas ✅
+  - Formatando suas datas ✅
