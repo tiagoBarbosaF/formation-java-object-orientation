@@ -22,6 +22,9 @@
   - Atenção aos pacotes do JUnit
   - Assertivas do JUnit
   - O que aprendemos?
+    - Como adicionar o JUnit ao projeto;
+    - Como escrever um teste automatizado com JUnit;
+    - Como executar os testes com JUnit e analisar o resultado da execução.
 
 - TDD: Test-Driven Development
   - Projeto da aula anterior
