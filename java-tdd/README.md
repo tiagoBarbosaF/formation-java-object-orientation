@@ -13,15 +13,15 @@
     - A importância de se escrever testes automatizados em uma aplicação;
     - Como escrever um teste automatizado utilizando uma classe Java com o método `main`.
 
-- JUnit
-  - Conhecendo o JUnit
-  - Escrevendo um teste com o JUnit
-  - Facilidades do JUnit
-  - Conhecendo a aplicação
-  - Testando uma funcionalidade
-  - Atenção aos pacotes do JUnit
-  - Assertivas do JUnit
-  - O que aprendemos?
+- JUnit ✅
+  - Conhecendo o JUnit ✅
+  - Escrevendo um teste com o JUnit ✅
+  - Facilidades do JUnit ✅
+  - Conhecendo a aplicação ✅
+  - Testando uma funcionalidade ✅
+  - Atenção aos pacotes do JUnit ✅
+  - Assertivas do JUnit ✅
+  - O que aprendemos? ✅
     - Como adicionar o JUnit ao projeto;
     - Como escrever um teste automatizado com JUnit;
     - Como executar os testes com JUnit e analisar o resultado da execução.
