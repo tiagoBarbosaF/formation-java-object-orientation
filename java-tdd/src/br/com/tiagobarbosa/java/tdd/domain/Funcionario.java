@@ -1,11 +1,12 @@
 package br.com.tiagobarbosa.java.tdd.domain;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDate;
 
 public class Funcionario {
-    private String nome;
-    private LocalDate dataAdmissao;
+    private final String nome;
+    private final LocalDate dataAdmissao;
     private BigDecimal salario;
 
     public Funcionario(String nome, LocalDate dataAdmissao, BigDecimal salario) {
@@ -24,5 +25,9 @@ public class Funcionario {
 
     public BigDecimal getSalario() {
         return salario;
+    }
+
+    public void reajustarSalario(BigDecimal reajuste) {
+        this.salario = this.salario.add(reajuste).setScale(2, RoundingMode.HALF_UP);
     }
 }

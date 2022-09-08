@@ -1,4 +1,4 @@
-# Java - TDD, testes automatizados
+# Java — TDD, testes automatizados
 
 ### Steps:
 
@@ -24,17 +24,21 @@
   - O que aprendemos? ✅
     - Como adicionar o JUnit ao projeto;
     - Como escrever um teste automatizado com JUnit;
-    - Como executar os testes com JUnit e analisar o resultado da execução.
+    - Como executar os testes com JUnit e analisar o resultado da execução?
 
-- TDD: Test-Driven Development
-  - Projeto da aula anterior
-  - Conhecendo o TDD
-  - Implementando uma funcionalidade com TDD
-  - Refactoring
-  - Refatoração no TDD
-  - Quando usar TDD?
-  - Vantagens do TDD
-  - O que aprendemos?
+- TDD: Test-Driven Development ✅
+  - Projeto da aula anterior ✅
+  - Conhecendo o TDD ✅
+  - Implementando uma funcionalidade com TDD ✅
+  - Refactoring ✅
+  - Refatoração no TDD ✅
+  - Quando usar TDD? ✅
+  - Vantagens do TDD ✅
+  - O que aprendemos? ✅
+    - O que é o TDD;
+    - Como escrever uma funcionalidade via TDD;
+    - Como realizar uma refatoração no código;
+    - As vantagens de escrever os testes antes da implementação.
 
 - Lidando com exceptions
   - Projeto da aula anterior
