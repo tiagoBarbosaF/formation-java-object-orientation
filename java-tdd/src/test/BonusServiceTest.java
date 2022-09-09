@@ -1,5 +1,6 @@
 import br.com.tiagobarbosa.java.tdd.domain.Funcionario;
 import br.com.tiagobarbosa.java.tdd.service.BonusService;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -10,13 +11,19 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class BonusServiceTest {
-    private BonusService bonusService = new BonusService();
+    private BonusService bonusService;
     private Funcionario funcionario;
     String nome = "Tiago";
     LocalDate dataAdmissao = LocalDate.now();
     BigDecimal salarioAlto = new BigDecimal(25000);
     BigDecimal salarioBaixo = new BigDecimal(2500);
     BigDecimal salarioIgual = new BigDecimal(10000);
+
+    @BeforeEach
+    public void inicializaDados(){
+        bonusService = new BonusService();
+    }
+
 
     @Test
     @DisplayName("Bônus deve ser zero quando o funcionário tiver um salário muito alto.")
