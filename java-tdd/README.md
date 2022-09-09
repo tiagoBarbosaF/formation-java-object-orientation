@@ -40,12 +40,14 @@
     - Como realizar uma refatoração no código;
     - As vantagens de escrever os testes antes da implementação.
 
-- Lidando com exceptions
-  - Projeto da aula anterior
-  - Testando um método que lança exception
-  - Lidando com exceptions no JUnit
-  - Testando exceptions
-  - O que aprendemos?
+- Lidando com exceptions ✅
+  - Projeto da aula anterior ✅
+  - Testando um método que lança exception ✅
+  - Lidando com exceptions no JUnit ✅
+  - Testando exceptions ✅
+  - O que aprendemos? ✅
+    - Como testar métodos que podem lançar exceptions.
+    - As abordagens para testar um método que lança uma exception.
 
 - Mais recursos
   - Projeto da aula anterior
